@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TimKiemThanhVienTrongCommunity</name>
+   <name>TaoChannelTrongCommunity</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6a9cf7fc-ee15-4074-8035-87b6a911e122</testCaseGuid>
+   <testCaseGuid>16c01740-df3e-4866-b4ba-a0d3395aeb9e</testCaseGuid>
 </TestCaseEntity>

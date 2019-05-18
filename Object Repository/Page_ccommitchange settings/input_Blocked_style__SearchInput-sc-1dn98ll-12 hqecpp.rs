@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Forgot password_password</name>
+   <name>input_Blocked_style__SearchInput-sc-1dn98ll-12 hqecpp</name>
    <tag></tag>
-   <elementGuidId>5ce20e02-5cd3-4c0a-b953-1184472644e0</elementGuidId>
+   <elementGuidId>5b7a4942-ff48-4520-8a61-626ae1e3da33</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='password']</value>
+         <value>//input[@type='text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,83 +24,76 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>password</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>password</value>
+      <value>Search</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control form-control input-block</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>2</value>
+      <value>style__SearchInput-sc-1dn98ll-12 hqecpp</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;password&quot;)</value>
+      <value>id(&quot;main&quot;)/div[@class=&quot;style__View-sc-3ct0cg-17 BxJlX&quot;]/div[@class=&quot;style__SectionsContainer-sc-1z019wi-1 lazENA&quot;]/div[@class=&quot;style__Column-sc-1z019wi-2 UoWkh&quot;]/div[@class=&quot;style__SectionCard-sc-1z019wi-3 fuuGnJ&quot;]/ul[@class=&quot;style__Filters-sc-1dn98ll-8 ftnlOO&quot;]/li[@class=&quot;style__Filter-sc-1dn98ll-9 style__SearchFilter-sc-1dn98ll-11 jxhpua&quot;]/form[@class=&quot;style__SearchForm-sc-1dn98ll-10 itIYOE&quot;]/input[@class=&quot;style__SearchInput-sc-1dn98ll-12 hqecpp&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='password']</value>
+      <value>//input[@type='text']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='login']/form/div[2]/input[2]</value>
+      <value>//main[@id='main']/div/div[3]/div/div/ul/li[4]/form/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/following::input[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Blocked'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create an account'])[1]/preceding::input[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Team'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms'])[1]/preceding::input[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search for community members'])[1]/preceding::input[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Find people by name or description - try searching for ', '&quot;', 'designer', '&quot;', '!')])[1]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input[2]</value>
+      <value>//input</value>
    </webElementXpaths>
 </WebElementEntity>
