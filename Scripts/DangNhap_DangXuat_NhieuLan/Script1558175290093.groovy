@@ -13,21 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+for(int i=0;i<2;i++){
+	
 
-WebUI.navigateToUrl('http://localhost:3000/')
+WebUI.callTestCase(findTestCase('DangNhapThanhCong'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_Spectrum/button_Join Spectrum'))
+WebUI.click(findTestObject('Object Repository/Page_Explore/img_Explore_style__Img-u3znqr-3 kJsvJN'))
 
-WebUI.click(findTestObject('Object Repository/Page_Spectrum/span_Sign in with GitHub'))
+WebUI.click(findTestObject('Object Repository/Page_tiendung2013vn97  tiendung2013vn97/button_Settings'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'), 
-    'tiendung2013vn97')
+WebUI.click(findTestObject('Object Repository/Page_My settings/button_Log out'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'), 
-    'YI7DEQRQ8SUDymSLf+NmqQ==')
-
-WebUI.click(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit'))
-
+}

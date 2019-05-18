@@ -13,21 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('DangNhapThanhCong'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://localhost:3000/')
+WebUI.click(findTestObject('Object Repository/Page_Explore/img_Explore_style__Img-u3znqr-3 kJsvJN'))
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Page_tiendung2013vn97  tiendung2013vn97/button_Settings'))
 
-WebUI.click(findTestObject('Object Repository/Page_Spectrum/button_Join Spectrum'))
-
-WebUI.click(findTestObject('Object Repository/Page_Spectrum/span_Sign in with GitHub'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'), 
-    'tiendung2013vn97')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'), 
-    'YI7DEQRQ8SUDymSLf+NmqQ==')
-
-WebUI.click(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit'))
+WebUI.click(findTestObject('Object Repository/Page_My settings/button_Log out'))
 
