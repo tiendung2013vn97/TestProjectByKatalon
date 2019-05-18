@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Settings</name>
+   <name>img_Explore_style__Img-u3znqr-3 kJsvJN</name>
    <tag></tag>
-   <elementGuidId>0e57d607-1db8-43b2-81eb-13e21efb3082</elementGuidId>
+   <elementGuidId>ff223986-59e0-49e8-af2c-c128aa1513fd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//main[@id='main']/div/section/section/div/div[3]/a/button</value>
+         <value>//img[@type='user']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,69 +17,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/img/default_avatar.svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>32</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>user</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>style__StyledButton-sc-1g5bc3a-2 style__StyledOutlineButton-sc-1g5bc3a-7 ezARMi</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Settings</value>
+      <value>style__Img-u3znqr-3 kJsvJN</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main&quot;)/div[@class=&quot;layout__SecondaryPrimaryColumnGrid-sc-1v43im1-3 liRHVO&quot;]/section[@class=&quot;layout__SecondaryColumn-sc-1v43im1-6 ctZiQt&quot;]/section[@class=&quot;style__SidebarSection-hht6fk-4 dzLuvX&quot;]/div[@class=&quot;style__ProfileContainer-sc-1glfqlb-0 dawKyj&quot;]/div[@class=&quot;style__ActionsRowContainer-sc-1glfqlb-4 iLxJmN&quot;]/a[@class=&quot;style__StyledLink-sc-1g5bc3a-1 dOYCgH&quot;]/button[@class=&quot;style__StyledButton-sc-1g5bc3a-2 style__StyledOutlineButton-sc-1g5bc3a-7 ezARMi&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk&quot;]/div[@class=&quot;style__NavigationWrapper-sc-1lxh6l2-3 olYdK&quot;]/div[@class=&quot;style__NavigationGrid-sc-1lxh6l2-5 cyPoXN&quot;]/div[@class=&quot;style__AvatarGrid-sc-1lxh6l2-6 kWLEke&quot;]/a[@class=&quot;style__AvatarLink-sc-1lxh6l2-7 bWCJDQ&quot;]/div[@class=&quot;style__Container-u3znqr-0 kwNgqv&quot;]/img[@class=&quot;style__Img-u3znqr-3 kJsvJN&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//img[@type='user']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='main']/div/section/section/div/div[3]/a/button</value>
+      <value>//div[@id='root']/div/div/div[2]/div[6]/a/div/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Online now'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore'])[1]/following::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Communities'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/following::img[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='abc'])[2]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/preceding::img[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='abc'])[1]/preceding::img[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/a/button</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore communities'])[1]/preceding::button[1]</value>
+      <value>//img</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Settings</name>
+   <name>select_Choose a communityabcMyCommunity</name>
    <tag></tag>
-   <elementGuidId>0e57d607-1db8-43b2-81eb-13e21efb3082</elementGuidId>
+   <elementGuidId>0a288518-f220-409b-8568-2264b611d335</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//main[@id='main']/div/section/section/div/div[3]/a/button</value>
+         <value>//div[@id='root']/div/div[4]/div[2]/div/select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,69 +17,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-cy</name>
+      <type>Main</type>
+      <value>composer-community-selector</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>style__StyledButton-sc-1g5bc3a-2 style__StyledOutlineButton-sc-1g5bc3a-7 ezARMi</value>
+      <value>style__Selector-ph1gk3-13 style__RequiredSelector-ph1gk3-14 CvQRp</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Settings</value>
+      <value>Choose a communityabcMyCommunity</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main&quot;)/div[@class=&quot;layout__SecondaryPrimaryColumnGrid-sc-1v43im1-3 liRHVO&quot;]/section[@class=&quot;layout__SecondaryColumn-sc-1v43im1-6 ctZiQt&quot;]/section[@class=&quot;style__SidebarSection-hht6fk-4 dzLuvX&quot;]/div[@class=&quot;style__ProfileContainer-sc-1glfqlb-0 dawKyj&quot;]/div[@class=&quot;style__ActionsRowContainer-sc-1glfqlb-4 iLxJmN&quot;]/a[@class=&quot;style__StyledLink-sc-1g5bc3a-1 dOYCgH&quot;]/button[@class=&quot;style__StyledButton-sc-1g5bc3a-2 style__StyledOutlineButton-sc-1g5bc3a-7 ezARMi&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;style__StyledAppViewWrapper-sc-1cyw1w0-0 iDTxIk&quot;]/div[@class=&quot;style__Wrapper-ph1gk3-1 eCuqXH&quot;]/div[@class=&quot;globals__FlexCol-sc-1izft7s-15 style__Container-ph1gk3-4 OFWJb&quot;]/div[@class=&quot;globals__FlexRow-sc-1izft7s-14 style__Dropdowns-ph1gk3-9 kBXVGP&quot;]/select[@class=&quot;style__Selector-ph1gk3-13 style__RequiredSelector-ph1gk3-14 CvQRp&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='main']/div/section/section/div/div[3]/a/button</value>
+      <value>//div[@id='root']/div/div[4]/div[2]/div/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Online now'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Post to:'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Communities'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start a conversation'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='abc'])[2]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Write'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/a/button</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore communities'])[1]/preceding::button[1]</value>
+      <value>//div[4]/div[2]/div/select</value>
    </webElementXpaths>
 </WebElementEntity>

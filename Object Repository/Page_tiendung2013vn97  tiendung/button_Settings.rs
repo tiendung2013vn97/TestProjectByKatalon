@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Settings</name>
    <tag></tag>
-   <elementGuidId>0e57d607-1db8-43b2-81eb-13e21efb3082</elementGuidId>
+   <elementGuidId>703188cb-6749-4318-9833-2c9b86c32675</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -74,12 +74,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/a/button</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore communities'])[1]/preceding::button[1]</value>
    </webElementXpaths>
 </WebElementEntity>
