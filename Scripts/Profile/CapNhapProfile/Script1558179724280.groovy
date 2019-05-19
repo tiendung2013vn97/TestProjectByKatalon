@@ -20,7 +20,7 @@ WebUI.click(findTestObject('Object Repository/Page_abc community/a_Profile'))
 WebUI.click(findTestObject('Page_tiendung2013vn97  tiendung/button_Settings'))
 
 text=WebUI.getText(findTestObject('Object Repository/Page_My settings/textarea_Bio_style__StyledTextArea-sc-17zryot-3 hSQZHk'))
-if(text=="abcd"){
+if(text==dataBio){
 	WebUI.setText(findTestObject('Object Repository/Page_My settings/textarea_Bio_style__StyledTextArea-sc-17zryot-3 hSQZHk'),'efgh')
 }
 else{

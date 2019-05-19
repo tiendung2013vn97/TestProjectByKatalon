@@ -21,7 +21,7 @@ WebUI.click(findTestObject('Page_Spectrum/button_Join Spectrum'))
 
 WebUI.click(findTestObject('Page_Spectrum/span_Sign in with GitHub'))
 
-WebUI.setText(findTestObject('Page_Sign in to GitHub  GitHub/input_Username or email address_login'), 'tiendung2013vn97')
+WebUI.setText(findTestObject('Page_Sign in to GitHub  GitHub/input_Username or email address_login'), username)
 
 WebUI.click(findTestObject('Page_Sign in to GitHub  GitHub/input_Forgot password_commit'))
 

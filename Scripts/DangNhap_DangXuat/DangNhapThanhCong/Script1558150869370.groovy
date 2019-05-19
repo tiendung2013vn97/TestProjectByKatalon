@@ -35,7 +35,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in to GitHub 
 if(username!='')
 {
 	WebUI.click(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit'))
+	
 }
+return username
 
 
 

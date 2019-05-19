@@ -13,11 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('DangNhap_DangXuat/DangNhapThanhCong'), [:], FailureHandling.STOP_ON_FAILURE)
+String username=WebUI.callTestCase(findTestCase('DangNhap_DangXuat/DangNhapThanhCong'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('http://localhost:3000/home?authed=true')
 
-WebUI.click(findTestObject('Page_abc community/a_Post_style__InboxLinkWrapper-q7eler-1 iENQxs'))
+if(username=="tiendung2013vn97"){
+	WebUI.click(findTestObject('Page_abc community/a_Post_style__InboxLinkWrapper-q7eler-1 iENQxs'))
+	WebUI.click(findTestObject('Object Repository/Page_Boring and boring 2  abc/button_thumbsupLike0'))
+}
 
-WebUI.click(findTestObject('Object Repository/Page_Boring and boring 2  abc/button_thumbsupLike0'))
+
+
 

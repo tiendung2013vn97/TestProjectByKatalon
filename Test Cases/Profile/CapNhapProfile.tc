@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>70dbd67a-60e5-4e19-8b78-2f7dfe2c1c47</testCaseGuid>
+   <variable>
+      <defaultValue>'abcd'</defaultValue>
+      <description></description>
+      <id>8eb1c626-12f6-4327-ac99-4228483b4e97</id>
+      <masked>false</masked>
+      <name>dataBio</name>
+   </variable>
 </TestCaseEntity>
