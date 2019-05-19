@@ -23,11 +23,19 @@ WebUI.click(findTestObject('Object Repository/Page_Spectrum/button_Join Spectrum
 
 WebUI.click(findTestObject('Object Repository/Page_Spectrum/span_Sign in with GitHub'))
 
+
+
 WebUI.setText(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'), 
-    'tiendung2013vn97')
+    username)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'), 
-    'YI7DEQRQ8SUDymSLf+NmqQ==')
+    password)
 
-WebUI.click(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit'))
+
+if(username!='')
+{
+	WebUI.click(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit'))
+}
+
+
 

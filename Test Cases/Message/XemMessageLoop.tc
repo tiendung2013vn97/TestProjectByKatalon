@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>XemMessage</name>
+   <name>XemMessageLoop</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a9c50e26-608a-4c23-ba65-3b921e2d5b1f</testCaseGuid>
+   <testCaseGuid>825ba4f3-e518-46e9-86e8-a5fd3a4a49c8</testCaseGuid>
 </TestCaseEntity>

@@ -19,14 +19,13 @@ WebUI.click(findTestObject('Object Repository/Page_abc community/a_Profile'))
 
 WebUI.click(findTestObject('Page_tiendung2013vn97  tiendung/button_Settings'))
 
-WebUI.setText(findTestObject('Object Repository/Page_My settings/textarea_Bio_style__StyledTextArea-sc-17zryot-3 hSQZHk'), 
-    'a')
-
-WebUI.setText(findTestObject('Object Repository/Page_My settings/textarea_a'), 'ab')
-
-WebUI.setText(findTestObject('Object Repository/Page_My settings/textarea_ab'), 'abc')
-
-WebUI.setText(findTestObject('Object Repository/Page_My settings/textarea_abc'), 'abcd')
+text=WebUI.getText(findTestObject('Object Repository/Page_My settings/textarea_Bio_style__StyledTextArea-sc-17zryot-3 hSQZHk'))
+if(text=="abcd"){
+	WebUI.setText(findTestObject('Object Repository/Page_My settings/textarea_Bio_style__StyledTextArea-sc-17zryot-3 hSQZHk'),'efgh')
+}
+else{
+	WebUI.setText(findTestObject('Object Repository/Page_My settings/textarea_Bio_style__StyledTextArea-sc-17zryot-3 hSQZHk'),'abcd')
+}
 
 WebUI.click(findTestObject('Object Repository/Page_My settings/button_Save'))
 

@@ -13,7 +13,28 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('explore/XemExplore_TopCommunities'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Page_Explore/div_Design'))
+WebUI.navigateToUrl('http://localhost:3000/')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Object Repository/Page_Spectrum/button_Join Spectrum'))
+
+WebUI.click(findTestObject('Object Repository/Page_Spectrum/span_Sign in with GitHub'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'), 
+    username)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'), 
+    password)
+
+WebUI.click(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit'))
+
+if(username=="tiendung2013vn97"){
+	WebUI.click(findTestObject('Page_abc community/a_Post_style__InboxLinkWrapper-q7eler-1 iENQxs'))
+	
+	WebUI.click(findTestObject('Object Repository/Page_Boring and boring 2  abc/button_thumbsupLike0'))
+}
+
 

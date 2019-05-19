@@ -13,7 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('explore/XemExplore_TopCommunities'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Explore/div_Design'))
+for(int i=0;i<2;i++){
+	WebUI.callTestCase(findTestCase('DangNhap_DangXuat/DangNhapThanhCong02'), [:], FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.click(findTestObject('Object Repository/Page_Explore/a_Profile'))
+}
+
 

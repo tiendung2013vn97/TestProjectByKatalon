@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DangNhapThanhCong</name>
+   <name>LikePostIf</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1498afc8-bc64-4974-889b-68e3eec1464b</testCaseGuid>
+   <testCaseGuid>60efad4c-caa9-4393-b7eb-f7c5fe809316</testCaseGuid>
    <variable>
       <defaultValue>'tiendung2013vn97'</defaultValue>
       <description></description>
-      <id>8697aea9-1aed-4808-af06-5cc948fa7f78</id>
+      <id>a39d0465-eeba-4ffb-8b48-6cbce492c79a</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
       <defaultValue>'YI7DEQRQ8SUDymSLf+NmqQ=='</defaultValue>
       <description></description>
-      <id>3891a196-0284-4893-9d86-73c9e81639b8</id>
+      <id>79a1c32c-ab5e-4eb7-b19d-a9e0ce628b08</id>
       <masked>false</masked>
       <name>password</name>
    </variable>

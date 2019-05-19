@@ -13,11 +13,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Post/GuiTinNhan'), [:], FailureHandling.STOP_ON_FAILURE)
+for(int i=0;i<2;i++){
+	
 
-WebUI.click(findTestObject('Object Repository/Page_Boring and boring  abc/p_Try hard'))
+WebUI.callTestCase(findTestCase('DangNhap_DangXuat/DangNhapThanhCong'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Boring and boring  abc/li_delete'))
+WebUI.navigateToUrl('http://localhost:3000/home?authed=true')
 
-WebUI.click(findTestObject('Object Repository/Page_Boring and boring  abc/button_Delete'))
+WebUI.click(findTestObject('Object Repository/Page_abc community/div_Info_sc-bxivhb beCRxj'))
 
+if(i==0){
+	WebUI.setText(findTestObject('Object Repository/Page_abc community/input_Info_sc-gzVnrw lbskuL'), 'Boring and boring')
+}else{
+	WebUI.setText(findTestObject('Object Repository/Page_abc community/input_Info_sc-gzVnrw lbskuL'), 'Must try hard')
+}
+
+
+WebUI.click(findTestObject('Object Repository/Page_abc community/button_Post'))
+
+}

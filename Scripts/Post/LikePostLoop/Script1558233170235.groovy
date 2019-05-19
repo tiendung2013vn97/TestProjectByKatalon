@@ -12,8 +12,19 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.logging.KeywordLogger
 
 WebUI.callTestCase(findTestCase('DangNhap_DangXuat/DangNhapThanhCong'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_abc community/a_message-simpleMessages'))
+WebUI.navigateToUrl('http://localhost:3000/home?authed=true')
+
+WebUI.click(findTestObject('Page_abc community/a_Post_style__InboxLinkWrapper-q7eler-1 iENQxs'))
+
+for(int i=0;i<2;i++){
+	if(i==1){
+		WebUI.click(findTestObject('Object Repository/Page_Boring and boring 2  abc/button_thumbsupLike0'))
+	}
+	
+}
+
 
