@@ -15,21 +15,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('DangNhap_DangXuat/DangNhapThanhCong02'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_community01 community/a_exploreExplore'))
+WebUI.click(findTestObject('Page_Spectrum community/a_exploreExplore'))
 
 WebUI.click(findTestObject('Page_Explore/button_Create a community'))
 
-WebUI.setText(findTestObject('Object Repository/Page_New community/input_What is your community called_style__StyledInput-sc-17zryot-2 jHXlSy'), 
-    'community04')
+WebUI.setText(findTestObject('Page_New community/input_What is your community called_style__StyledInput-sc-17zryot-2 jHXlSy_6'), 
+    'name02')
 
-WebUI.setText(findTestObject('Object Repository/Page_New community/textarea_Describe it in 140 characters or less_style__StyledTextArea-sc-17zryot-3 hSQZHk'), 
-    'test 02')
+WebUI.setText(findTestObject('Page_New community/textarea_Describe it in 140 characters or less_style__StyledTextArea-sc-17zryot-3 hSQZHk'), 
+    'test01')
 
 WebUI.click(findTestObject('Object Repository/Page_New community/div_checkboxI have read the Spectrum Code of Conduct and agree to enforce it in my community'))
 
-WebUI.click(findTestObject('Object Repository/Page_New community/button_Create Community  Continue'))
-
-WebUI.click(findTestObject('Object Repository/Page_New community/button_Skip this step'))
-
-WebUI.click(findTestObject('Object Repository/Page_New community/button_Go to my community'))
+WebUI.click(findTestObject('Object Repository/Page_New community/button_Create Community  Continue_2'))
 

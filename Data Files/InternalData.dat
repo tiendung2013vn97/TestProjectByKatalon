@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>InternalData</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>72ff9953-2b3b-4930-a065-020432a7b8cd</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>communitytest01 describe+here null null null null null</data>
+   <data>communitytest02 describe+here+private null null null null null</data>
+   <data>communitytest03 describe+here+optional null null null null null</data>
+   <data>null null null channeltest01 channeldescribe01 null null</data>
+   <data>null null null channeltest02_private channeldescribe02 null null</data>
+   <data>null null null null channeldescribe03+changed null null</data>
+   <data>null null null channeltest04changed null null null</data>
+   <data>null describe+08+changed null null null null null</data>
+   <data>communitytest04+changed null null null null null null</data>
+   <data>null null null null null ngophuochai01%40gmail.com Hai</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>CommunityName</name>
+      <size>10</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>CommunityDescribe</name>
+      <size>10</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>CommunityOptional</name>
+      <size>10</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>ChannelName</name>
+      <size>10</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>ChannelDescribe</name>
+      <size>10</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>Email</name>
+      <size>10</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>NameEmail</name>
+      <size>10</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

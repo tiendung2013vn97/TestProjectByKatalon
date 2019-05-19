@@ -8,8 +8,8 @@
    <variable>
       <defaultValue>'abcd'</defaultValue>
       <description></description>
-      <id>8eb1c626-12f6-4327-ac99-4228483b4e97</id>
+      <id>8a59573a-d693-432a-a072-b8389cba726e</id>
       <masked>false</masked>
-      <name>dataBio</name>
+      <name>bioData</name>
    </variable>
 </TestCaseEntity>

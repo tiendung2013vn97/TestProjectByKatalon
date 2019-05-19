@@ -14,16 +14,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 for (int i = 0; i < 2; i++) {
-	
-    String username=WebUI.callTestCase(findTestCase('DangNhap_DangXuat/DangNhapThanhCong'), [:], FailureHandling.STOP_ON_FAILURE)
-	switch(username){
-		case "tiendung2017vn97":		
-			break
-		default:
-			WebUI.click(findTestObject('Object Repository/Page_abc community/a_message-simpleMessages'))
-			break
-	}
+    WebUI.callTestCase(findTestCase('DangNhap_DangXuat/DangNhapThanhCong'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    
+    WebUI.click(findTestObject('Object Repository/Page_abc community/a_message-simpleMessages'))
 }
 

@@ -19,7 +19,7 @@ WebUI.click(findTestObject('Page_community01_changed community/a_community01_cha
 
 WebUI.click(findTestObject('Page_community01_changed community/button_Settings'))
 
-WebUI.setText(findTestObject('Object Repository/Page_ccommitchange settings/textarea_test community'), 'test community change')
+WebUI.setText(findTestObject('Object Repository/Page_ccommitchange settings/textarea_test community'), Describe)
 
 WebUI.click(findTestObject('Object Repository/Page_ccommitchange settings/button_Save'))
 

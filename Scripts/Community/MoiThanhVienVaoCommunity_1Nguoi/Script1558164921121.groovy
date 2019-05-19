@@ -22,10 +22,10 @@ WebUI.click(findTestObject('Object Repository/Page_ccommitchange community/butto
 WebUI.click(findTestObject('Object Repository/Page_ccommitchange settings/div_Members'))
 
 WebUI.setText(findTestObject('Object Repository/Page_ccommitchange settings/input_Invite by email_style__EmailInviteInput-sc-1vvoo0f-1 gNxvqX'), 
-    'ngophuochai2@gmail.com')
+    Email)
 
 WebUI.setText(findTestObject('Object Repository/Page_ccommitchange settings/input_Invite by email_style__EmailInviteInput-sc-1vvoo0f-1 kRLwzc'), 
-    'Hai')
+    Name)
 
 WebUI.click(findTestObject('Object Repository/Page_ccommitchange settings/button_Send Invitations'))
 

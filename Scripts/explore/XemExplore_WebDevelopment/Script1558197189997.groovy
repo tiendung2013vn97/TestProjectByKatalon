@@ -13,19 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-String username=WebUI.callTestCase(findTestCase('explore/XemExplore_TopCommunities'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('explore/XemExplore_TopCommunities'), [:], FailureHandling.STOP_ON_FAILURE)
 
-switch(username){
-	case "tiendung2013vn97":
-		WebUI.click(findTestObject('Object Repository/Page_Explore/div_Web development'))
-		break
-	case "tiendung2017vn97":
-		WebUI.click(findTestObject('Object Repository/Page_Explore/div_Web development'))
-		break
-	default:
-		break
-}
-
-
-
+WebUI.click(findTestObject('Object Repository/Page_Explore/div_Web development'))
 
